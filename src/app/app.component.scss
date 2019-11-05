@@ -1,0 +1,23 @@
+:host {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(100,210,255);
+    background: linear-gradient(180deg, rgba(100,210,255,1) 0%, rgba(139,154,215,1) 87%, rgba(0,91,64,1) 88%, rgba(20,182,112,1) 100%);
+}
+
+.app-title {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    margin: 0;
+    color: rgb(255, 238, 0);
+    user-select: none;
+    text-shadow: 2px 2px 10px green;
+}
+
+button[mat-fab] {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}

@@ -1,0 +1,18 @@
+<mat-card class="card-note" cdkDrag
+          [cdkDragFreeDragPosition]="{ 'x': note.x, 'y': note.y }"
+          [ngStyle]="{ 'z-index': note.z }"
+          (mousedown)="handleMouseDown($event)" (cdkDragEnded)="handleDragEnded($event)">
+    <mat-card-header>
+        <mat-card-title class="card-note-title">
+            <input [(ngModel)]="note.title" (ngModelChange)="handleModelChanged($event)">
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <textarea [(ngModel)]="note.text" (ngModelChange)="handleModelChanged($event)"></textarea>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-icon-button color="primary" class="button-remove" (click)="handleRemove($event)">
+            <i class="material-icons">delete</i>
+        </button>
+    </mat-card-actions>
+</mat-card>
