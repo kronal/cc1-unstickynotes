@@ -2,7 +2,7 @@
 
 Hacked in under 3h using Angular
 
-![View it in action NOW](../docs/demo.gif?raw=true)
+![View it in action NOW](/docs/demo.gif?raw=true)
 
 #### Test it LIVE
 
@@ -13,7 +13,7 @@ https://kronal.github.io/cc1-unstickynotes/
 
 # Features
 
-![Features](../docs/features.gif?raw=true)
+![Features](/docs/features.gif?raw=true)
 
 ## Behind the scenes
 
